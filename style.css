@@ -1,0 +1,44 @@
+body {
+  background-color: aqua;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  position: relative;
+}
+
+.square {
+  background-color: grey;
+  width: 175px;
+  height: 175px;
+  cursor: pointer;
+  margin-left: 145px;
+  margin-bottom: 35px;
+}
+
+.square:hover {
+  background-color: black;
+}
+
+#reset-button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  /* margin-top: 10px; */
+
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
