@@ -18,8 +18,16 @@ body {
   margin-bottom: 35px;
 }
 
-.square:hover {
+/* .square:hover {
   background-color: black;
+} */
+
+/* https://www.proglobalbusinesssolutions.com/css-hover-effects/ */
+.square:hover {
+  color: #494949 !important;
+  border-radius: 50px;
+  border-color: #494949 !important;
+  transition: all 0.3s ease 0s;
 }
 
 #reset-button {
